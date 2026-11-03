@@ -1,0 +1,47 @@
+[bar."default"]
+start = [
+    "launcher",
+    "clock",
+    "spacer_1",
+    "group:g1"
+]
+
+center = [
+    "workspaces",
+    "spacer_1",
+    "active_window"
+]
+
+end = [
+    "media",
+    "spacer_1",
+    "tray",
+    "notifications",
+    "network",
+    "volume",
+    "session"
+]
+
+concave_edge_corners = true
+margin_edge = 0
+margin_ends = 0
+
+radius_bottom_left = 12
+radius_bottom_right = 12
+radius_top_left = 0
+radius_top_right = 0
+
+thickness = 35
+scale = 1.10
+
+    [[bar.default.capsule_group]]
+    border = ""
+    fill = "on_secondary"
+    id = "g1"
+    opacity = 1.0
+    padding = 6.0
+    members = [
+        "temp",
+        "sysmon_2",
+        "sysmon_3"
+    ]
