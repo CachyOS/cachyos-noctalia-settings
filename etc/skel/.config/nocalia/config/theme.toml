@@ -1,15 +1,40 @@
 [theme]
 mode = "dark"
-source = "wallpaper"
-wallpaper_scheme = "m3-tonal-spot"
+shell_mode = "follow"
+source = "custom"
+custom_palette = "apathy"
 
-    [theme.templates]
-    builtin_ids = [
-        "btop",
-        "gtk3",
-        "gtk4",
-        "kcolorscheme",
-        "kitty",
-        "qt",
-        "alacritty"
-    ]
+[theme.templates]
+builtin_ids = [
+    # compositors
+    "hyprland",
+    "mango",
+    "niri",
+    "umbriel",
+    # no jay officially
+    
+    # apps
+    "alacritty",
+    "kitty",
+    "btop",
+
+    # system
+    "qt",
+    "kcolorscheme",
+    "gtk3",
+    "gtk4",
+]
+
+community_ids = [
+    "jay",
+    "thunar",
+    "chromium-based",
+    "pywalfox",
+    "discord",
+    "steam",
+    "vscode",
+    "obsidian",
+    # you can add more
+    # by looking up with
+    # `noctalia theme --list-templates`
+]

@@ -1,0 +1,100 @@
+/*
+  "base16": {
+    "author": "Jannik Siebert (https://github.com/janniks)",
+     "ID": "base16-apathy"
+  }
+*/ 
+{
+  "dark": {
+    "mPrimary": "#4c963e",
+    "mOnPrimary": "#031a16",
+    "mSecondary": "#3e7996",
+    "mOnSecondary": "#031a16",
+    "mTertiary": "#3e9688",
+    "mOnTertiary": "#031a16",
+    "mError": "#963e4c",
+    "mOnError": "#d2e7e4",
+    "mSurface": "#031a16",
+    "mOnSurface": "#a7cec8",
+    "mSurfaceVariant": "#184e45",
+    "mOnSurfaceVariant": "#81b5ac",
+    "mOutline": "#2b685e",
+    "mShadow": "#031a16",
+    "mHover": "#0b342d",
+    "mOnHover": "#d2e7e4",
+    "terminal": {
+      "background": "#031a16",
+      "foreground": "#81b5ac",
+      "cursor": "#81b5ac",
+      "cursorText": "#031a16",
+      "selectionBg": "#81b5ac",
+      "selectionFg": "#031a16",
+      "normal": {
+        "black": "#0b342d",
+        "red": "#963e4c",
+        "green": "#4c963e",
+        "yellow": "#96883e",
+        "blue": "#3e4c96",
+        "magenta": "#883e96",
+        "cyan": "#3e9688",
+        "white": "#81b5ac"
+      },
+      "bright": {
+        "black": "#2b685e",
+        "red": "#963e4c",
+        "green": "#3e965b",
+        "yellow": "#96883e",
+        "blue": "#3e7996",
+        "magenta": "#883e96",
+        "cyan": "#5f9c92",
+        "white": "#d2e7e4"
+      }
+    }
+  },
+  "light": {
+    "mPrimary": "#3e965b",
+    "mOnPrimary": "#d2e7e4",
+    "mSecondary": "#3e7996",
+    "mOnSecondary": "#d2e7e4",
+    "mTertiary": "#3e9688",
+    "mOnTertiary": "#d2e7e4",
+    "mError": "#963e4c",
+    "mOnError": "#d2e7e4",
+    "mSurface": "#d2e7e4",
+    "mOnSurface": "#031a16",
+    "mSurfaceVariant": "#a7cec8",
+    "mOnSurfaceVariant": "#184e45",
+    "mOutline": "#5f9c92",
+    "mShadow": "#81b5ac",
+    "mHover": "#a7cec8",
+    "mOnHover": "#031a16",
+    "terminal": {
+      "background": "#d2e7e4",
+      "foreground": "#0b342d",
+      "cursor": "#0b342d",
+      "cursorText": "#d2e7e4",
+      "selectionBg": "#0b342d",
+      "selectionFg": "#d2e7e4",
+      "normal": {
+        "black": "#0b342d",
+        "red": "#963e4c",
+        "green": "#4c963e",
+        "yellow": "#96883e",
+        "blue": "#3e4c96",
+        "magenta": "#883e96",
+        "cyan": "#3e9688",
+        "white": "#81b5ac"
+      },
+      "bright": {
+        "black": "#2b685e",
+        "red": "#963e4c",
+        "green": "#3e965b",
+        "yellow": "#96883e",
+        "blue": "#3e7996",
+        "magenta": "#883e96",
+        "cyan": "#5f9c92",
+        "white": "#d2e7e4"
+      }
+    }
+  }
+}
