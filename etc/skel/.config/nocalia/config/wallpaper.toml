@@ -1,0 +1,10 @@
+[wallpaper]
+enable = true
+fill_mode = "crop"
+direcotry = "~/Wallpapers"
+transition = [
+  "wipe",
+]
+
+[wallpaper.default]
+path = "/usr/share/wallpapers/Cachy Depths 5K.png"

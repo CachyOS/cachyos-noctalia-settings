@@ -1,6 +1,6 @@
 [widget.clock]
 color = "secondary"
-format = "{:%H:%M %A %m/%d/%y}"
+format = "{:%H:%M}"
 
 [widget.launcher]
 color = "secondary"
