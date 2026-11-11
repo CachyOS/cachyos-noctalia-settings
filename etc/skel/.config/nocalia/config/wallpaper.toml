@@ -1,7 +1,7 @@
 [wallpaper]
-enable = true
+enabled = true
 fill_mode = "crop"
-direcotry = "~/Wallpapers"
+directory = "~/Wallpapers"
 transition = [
   "wipe",
 ]
