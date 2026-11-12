@@ -1,3 +1,6 @@
+# Default greeter settings
+# They are universal in all greeters
+
 [terminal]
 vt = 1
 

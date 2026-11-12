@@ -1,0 +1,14 @@
+# Wallpapers service
+# We are using `cachyos-wallpapers` for this
+# Read more: https://docs.noctalia.dev/noctalia/desktop/wallpaper/
+
+[wallpaper]
+enabled = true
+fill_mode = "crop"
+directory = "~/Wallpapers"
+transition = [
+  "wipe",
+]
+
+[wallpaper.default]
+path = "/usr/share/wallpapers/Cachy_Depths_5K.png"
