@@ -1,3 +1,7 @@
+# Bar settings
+# Bar is a kind of widget
+# Follow https://docs.noctalia.dev/noctalia/bar/ to customize it! 
+
 [bar."default"]
 enabled = true
 

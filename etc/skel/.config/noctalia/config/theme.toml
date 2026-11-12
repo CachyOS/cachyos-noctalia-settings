@@ -1,3 +1,8 @@
+# Since Noctalia is also themes we are using it to properly setup singular coloring
+# Noctalia theming generates output files you need to import manually,
+# We are only providing settings to templates and fitting theme
+# Read more: https://docs.noctalia.dev/noctalia/theming
+
 [theme]
 mode = "dark"
 shell_mode = "follow"
@@ -38,3 +43,10 @@ community_ids = [
     # by looking up with
     # `noctalia theme --list-templates`
 ]
+
+# Noctalia also could generate theme out of templates provided in templates/ directory
+# Read more: https://docs.noctalia.dev/noctalia/theming/app-theming/?section=user-templates#user-templates
+#
+# [theme.templates.user."custom_theme"]
+# input_path  = "$XDG_CONFIG_HOME/noctalia/templates/appname.css"
+# output_path = "$XDG_CONFIG_HOME/appname/theme.css"

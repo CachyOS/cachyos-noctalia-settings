@@ -1,3 +1,7 @@
+# Shell settings are major settings in Noctalia
+# It's how Noctalia behaves
+# Follow https://docs.noctalia.dev/noctalia/configuration/shell/ to configure it
+
 [shell]
 clipboard_image_action_command = "swash --stdin --name \"swash-$(date +'%Y-%m-%d_%H:%M:%S').png\""
 launch_apps_as_systemd_services = true
