@@ -1,4 +1,10 @@
+# Bar settings
+# Bar is a kind of widget
+# Follow https://docs.noctalia.dev/noctalia/bar/ to customize it! 
+
 [bar."default"]
+enabled = true
+
 start = [
     "launcher",
     "clock",
@@ -22,6 +28,7 @@ end = [
     "session"
 ]
 
+position = "right"
 concave_edge_corners = true
 margin_edge = 0
 margin_ends = 0
@@ -34,14 +41,14 @@ radius_top_right = 0
 thickness = 35
 scale = 1.10
 
-    [[bar.default.capsule_group]]
-    border = ""
-    fill = "on_secondary"
-    id = "g1"
-    opacity = 1.0
-    padding = 6.0
-    members = [
-        "temp",
-        "sysmon_2",
-        "sysmon_3"
-    ]
+[[bar.default.capsule_group]]
+border = ""
+fill = "on_secondary"
+id = "g1"
+opacity = 1.0
+padding = 6.0
+members = [
+    "temp",
+    "sysmon_2",
+    "sysmon_3"
+]

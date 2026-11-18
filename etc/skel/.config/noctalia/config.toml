@@ -5,4 +5,5 @@ files = [
   "config/shell.toml",
   "config/theme.toml",
   "config/widget.toml",
+  "config/wallpaper.toml",
 ]

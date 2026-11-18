@@ -1,6 +1,9 @@
+# Almost all widgets could be customized in Noctalia
+# I strongly advice to follow https://docs.noctalia.dev/noctalia/bar/widgets/ before changing anything here
+
 [widget.clock]
 color = "secondary"
-format = "{:%H:%M %A %m/%d/%y}"
+format = "{:%H:%M}"
 
 [widget.launcher]
 color = "secondary"

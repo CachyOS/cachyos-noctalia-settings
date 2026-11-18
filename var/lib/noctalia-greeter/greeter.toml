@@ -6,6 +6,7 @@
 
 [appearance]
 scheme = "Synced"
+scheme_selector_position = "hidden"
 
 [auth]
 allow_empty_password = true
